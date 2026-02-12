@@ -10,7 +10,7 @@ type DataParser interface {
 	ActionInfo() (string, error)
 }
 
-func info(dataset []string, dp DataParser) {
+func Info(dataset []string, dp DataParser) {
 
 	for _, value := range dataset {
 
